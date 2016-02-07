@@ -111,7 +111,6 @@ header {
   width: 100%;
   left: -100%;
   top: 0;
-  bottom: 0;
   padding: 0;
   min-height: 800px; }
   .navigation ul {
@@ -150,14 +149,17 @@ header {
     color: red; }
 
   .navigation {
+    text-align: right;
     min-height: 0;
     background-color: none;
     position: absolute;
     display: block;
     left: 0; }
     .navigation ul {
-      background-color: red; }
+      margin: 0;
+      padding: 0; }
       .navigation ul li {
+        padding: 0em 1em;
         display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
