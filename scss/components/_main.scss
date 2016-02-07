@@ -10,8 +10,8 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+  overflow: hidden;
 }
-
 
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -25,10 +25,24 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
   height: 100vh;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax-group {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.parallax-back {
+  width: 100%;
+  transform: translateZ(-1px);
 }
 
 header {
