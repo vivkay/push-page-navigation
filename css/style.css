@@ -43,14 +43,11 @@ header {
   padding: 0; }
 .navigation li {
   list-style-type: none; }
-  .navigation li:first-child a {
-    border-top: 1px solid #ccc; }
   .navigation li a {
     color: black;
     display: block;
     text-align: center;
     padding: .5em 1em;
-    border-bottom: 1px solid #ccc;
     text-decoration: none; }
   .navigation li a:hover {
     background-color: #ccc;
