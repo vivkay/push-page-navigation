@@ -154,6 +154,15 @@ header {
     color: red;
   }
 
+  .navigation {
+    position: absolute;
+    right: 0;
+      ul {
+        li {
+          display: inline-block;
+        }
+      }
+  }
 
 
 }

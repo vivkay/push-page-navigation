@@ -123,6 +123,12 @@ header {
     right: auto; }
 
   .color-shift {
-    color: red; } }
+    color: red; }
+
+  .navigation {
+    position: absolute;
+    right: 0; }
+    .navigation ul li {
+      display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
