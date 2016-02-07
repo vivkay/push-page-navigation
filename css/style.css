@@ -127,7 +127,8 @@ header {
 
   .navigation {
     position: absolute;
-    right: 0; }
+    right: 0;
+    top: 2em; }
     .navigation ul li {
       display: inline-block; } }
 
