@@ -35,6 +35,10 @@ header {
   width: 100%;
 }
 
+.logo-full {
+  height: 1.75em;
+}
+
 .intro {
   margin-top: 5em;
 }
@@ -156,10 +160,6 @@ header {
     color: blue;
   }
 
-  .logo-full {
-    display: none;
-  }
-
 //tablet
 @media only screen and (min-width: 38em){
 
@@ -205,9 +205,8 @@ header {
   }
 
   .logo-full {
-    display: block;
-    height: 2em;
-    margin-top: .5em;
+    position: absolute;
+    left: 1em;
   }
 
 
