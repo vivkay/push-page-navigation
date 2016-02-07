@@ -26,7 +26,10 @@ html {
 body {
   font-family: sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; }
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
 
@@ -42,6 +45,9 @@ header {
 
 .donate {
   background-color: #F05546; }
+
+.parallax-back {
+  width: 100%; }
 
 .intro {
   margin-top: 5em; }
@@ -144,7 +150,6 @@ header {
       border-bottom: 1px solid #0D0C0D;
       text-decoration: none; }
     .navigation li a:hover {
-      background-color: #0D0C0D;
       color: #F05546; }
     .navigation li a:active {
       color: #F37962; }
@@ -184,6 +189,12 @@ header {
         .navigation ul li a {
           border-bottom: none; }
 
+  .donate:hover {
+    background-color: #D94841; }
+
+  /*
+  Help: Where/how do I target a:hover of the the second-child of the ul (donate) so that the text appears black on hover
+  */
   .logo-full {
     position: absolute;
     left: 1em; } }

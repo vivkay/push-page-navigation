@@ -25,6 +25,9 @@ body{
   &.noscript .toggle-btn{
       display: none;
   }
+  overflow-x: hidden;
+  overflow-y:auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
@@ -41,6 +44,10 @@ header {
 
 .donate {
   background-color: $coral;
+}
+
+.parallax-back {
+  width: 100%;
 }
 
 .intro {
@@ -158,7 +165,6 @@ header {
       text-decoration: none;
     }
     a:hover {
-      background-color: $dark-grey;
       color: $coral;
     }
     a:active {
@@ -218,6 +224,14 @@ header {
         }
       }
   }
+
+  .donate:hover {
+    background-color: $dark-coral;
+  }
+
+/*
+Help: Where/how do I target a:hover of the the second-child of the ul (donate) so that the text appears black on hover
+*/
 
   .logo-full {
     position: absolute;
