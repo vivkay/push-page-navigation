@@ -96,7 +96,7 @@ header {
     background-color: #8F8A8B; }
 
 /*Sliding navigation*/
-@media only screen and (max-width: 60em) {
+@media only screen and (min-width: 25em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;

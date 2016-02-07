@@ -108,7 +108,8 @@ header {
 // Page should move when the nav opens
 // This is the only time we will ever use max-width EVER.
 
-@media only screen and (max-width: 60em) {
+//mobile
+@media only screen and (min-width: 25em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -154,7 +155,12 @@ header {
   color: blue;
 }
 
+//tablet
+@media only screen and (min-width: 38em){
 
+}
+
+//desktop
 @media only screen and (min-width: 60em){
   .toggle-btn,
   .close-btn{
