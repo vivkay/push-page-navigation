@@ -52,6 +52,7 @@ header {
       display: block;
       text-align: center;
       padding: .5em 1em;
+      border-bottom: 1px solid $light-grey;
       text-decoration: none;
     }
     a:hover {
@@ -132,14 +133,27 @@ header {
   min-height: 800px;
 }
 
+.color-shift {
+  color: blue;
+}
+
+
 @media only screen and (min-width: 60em){
   .toggle-btn,
   .close-btn{
     display: none;
   }
-}
 
-body.noscript .navigation{
-  position: static;
-  right: auto;
+
+  body.noscript .navigation{
+    position: static;
+    right: auto;
+  }
+
+  .color-shift {
+    color: red;
+  }
+
+
+
 }
