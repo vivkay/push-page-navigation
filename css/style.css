@@ -33,7 +33,7 @@ body {
 header {
   padding: 0 1em;
   position: fixed;
-  top: 1em;
+  top: 0;
   left: 0;
   width: 100%; }
 
