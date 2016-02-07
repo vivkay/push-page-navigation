@@ -101,7 +101,7 @@ header {
     }
 
     &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(100%);
+      transform: translateX(90%);
     }
 
     &[data-state="slide-open"]{
@@ -124,13 +124,11 @@ header {
     padding: 0;
     min-height: 800px;
   ul{
-    margin: 100px;
+    margin: 100px 0px;
   }
   li {
     list-style-type: none;
-    &:first-child a{
-    }
-      a {
+    a {
       color: white;
       display: block;
       text-align: center;
@@ -139,11 +137,13 @@ header {
       text-decoration: none;
     }
     a:hover {
+      background-color: $dark-grey;
       color: $coral;
     }
     a:active {
       color: $medium-coral;
     }
+
   } // li
 } // .navigation
 
