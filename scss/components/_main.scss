@@ -45,29 +45,6 @@ header {
   top: 0;
 }
 
-.navigation{
-  ul{
-    padding: 0;
-  }
-  li {
-    list-style-type: none;
-    &:first-child a{
-    }
-      a{
-      color: black;
-      display: block;
-      text-align: center;
-      padding: .5em 1em;
-      border-bottom: 1px solid $light-grey;
-      text-decoration: none;
-    }
-    a:hover {
-      background-color: $light-grey;
-      color: black;
-    }
-  } // li
-} // .navigation
-
 .toggle-btn,{
     color: $text-color;
     text-decoration: none;
@@ -111,11 +88,6 @@ header {
 
 /*Sliding navigation*/
 
-// Page should move when the nav opens
-// This is the only time we will ever use max-width EVER.
-
-//mobile
-@media only screen and (min-width: 25em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -139,32 +111,58 @@ header {
 
   } // .site-wrapper
 
+  .slide-menu {
+    position: relative;
+    background-color: $grey;
+  }
 
-} // @media query
+  .navigation{
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    min-height: 800px;
+  ul{
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    &:first-child a{
+    }
+      a{
+      color: white;
+      display: block;
+      text-align: center;
+      padding: .5em 1em;
+      border-bottom: 1px solid $light-grey;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: $light-grey;
+      color: black;
+    }
+  } // li
+} // .navigation
 
-.slide-menu {
-  position: relative;
-  background-color: $grey;
-}
+  .color-shift {
+    color: blue;
+  }
 
-.navigation {
-  position: absolute;
-  width: 100%;
-  left: -100%;
-  top: 0;
-  bottom: 0;
-  padding: 0;
-  min-height: 800px;
-}
-
-.color-shift {
-  color: blue;
-}
+//mobile
+@media only screen and (min-width: 25em) {
+  //keep same
+} // @media query mobile
 
 //tablet
 @media only screen and (min-width: 38em){
 
-}
+  .color-shift {
+    color: green;
+  }
+
+} // @media query tablet
 
 //desktop
 @media only screen and (min-width: 60em){
@@ -184,11 +182,13 @@ header {
   }
 
   .navigation {
-    background-color: red;
+    min-height: 0;
+    background-color: none;
     position: absolute;
     display: block;
     left: 0;
       ul {
+        background-color: red;
         li {
           display: inline-block;
         }
@@ -196,4 +196,4 @@ header {
   }
 
 
-}
+} // @media query desktop
