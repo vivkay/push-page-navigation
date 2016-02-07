@@ -36,7 +36,7 @@ body {
 
 header {
   padding: 0;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%; }
@@ -46,9 +46,6 @@ header {
 
 .donate {
   background-color: #F05546; }
-
-.parallax-back {
-  width: 100%; }
 
 .intro {
   margin-top: 5em; }
