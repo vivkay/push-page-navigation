@@ -24,7 +24,6 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: red;
   font-family: sans-serif;
   margin: 0;
   padding: 0; }
@@ -172,12 +171,6 @@ header {
       .navigation ul li {
         padding: 0em 1em;
         display: inline-block; }
-
-  .logo-container-desktop {
-    text-align: left;
-    position: absolute;
-    z-index: 500;
-    height: 20px; }
 
   .logo-full {
     display: block;

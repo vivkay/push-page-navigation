@@ -19,7 +19,6 @@ html {
 
 
 body{
-  background-color: red;
   font-family: sans-serif;
   @include zero;
   // Hides close button if there is no js
@@ -204,13 +203,6 @@ header {
           display: inline-block;
         }
       }
-  }
-
-  .logo-container-desktop {
-    text-align: left;
-    position: absolute;
-    z-index: 500;
-    height: 20px;
   }
 
   .logo-full {
