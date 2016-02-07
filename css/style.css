@@ -34,7 +34,8 @@ header {
   padding: 0 1em;
   position: fixed;
   top: 1em;
-  left: 0; }
+  left: 0;
+  width: 100%; }
 
 .intro {
   margin-top: 5em; }
@@ -157,7 +158,8 @@ header {
     left: 0; }
     .navigation ul {
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      width: 100%; }
       .navigation ul li {
         padding: 0em 1em;
         display: inline-block; } }
