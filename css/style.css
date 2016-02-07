@@ -48,14 +48,14 @@ header {
     display: block;
     text-align: center;
     padding: .5em 1em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #8F8A8B;
     text-decoration: none; }
   .navigation li a:hover {
-    background-color: #ccc;
+    background-color: #8F8A8B;
     color: black; }
 
 .toggle-btn {
-  color: #222;
+  color: #19181A;
   text-decoration: none;
   height: 40px;
   width: 40px; }
@@ -64,7 +64,7 @@ header {
     width: 40px;
     display: inline-block;
     padding: 13px 11px;
-    border: 1px solid #ccc; }
+    border: 1px solid #8F8A8B; }
   .toggle-btn span {
     position: absolute !important;
     height: 1px;
@@ -83,7 +83,7 @@ header {
     width: 40px;
     display: inline-block;
     padding: 13px 11px;
-    border: 1px solid #ccc; }
+    border: 1px solid #8F8A8B; }
   .close-btn:hover:before {
     background-color: black; }
   .close-btn span {
@@ -93,7 +93,7 @@ header {
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px); }
   .close-btn:hover {
-    background-color: #ccc; }
+    background-color: #8F8A8B; }
 
 /*Sliding navigation*/
 @media only screen and (max-width: 60em) {
@@ -114,7 +114,7 @@ header {
       overflow: visible; } }
 .slide-menu {
   position: relative;
-  background-color: #ffff00; }
+  background-color: #19181A; }
 
 .navigation {
   position: absolute;
