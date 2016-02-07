@@ -35,7 +35,7 @@ header {
 
 .toggle-btn{
   position: absolute;
-  right: 1em;
+  left: 1em;
   top: 0;
 }
 
@@ -93,7 +93,7 @@ header {
       border: 1px solid $light-grey;
     }
   &:hover:before{
-    background-color: black;
+    background-color: $coral;
   }
     span{
       @include element-invisible;
@@ -118,12 +118,12 @@ header {
       width: 100%;
       height: 100%;
       position: relative;
-      transform: translateX(0);
+      transform: translateX(-100);
       transition: all 300ms ease-in-out;
     }
 
     &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(-100%);
+      transform: translateX(100%);
     }
 
     &[data-state="slide-open"]{
@@ -137,13 +137,13 @@ header {
 
 .slide-menu {
   position: relative;
-  background-color: $main-grey;
+  background-color: $grey;
 }
 
 .navigation {
   position: absolute;
   width: 100%;
-  right: -100%;
+  left: -100%;
   top: 0;
   bottom: 0;
   padding: 0;
@@ -172,9 +172,10 @@ header {
   }
 
   .navigation {
+    background-color: red;
     position: absolute;
     display: block;
-    right: 0;
+    left: 0;
       ul {
         li {
           display: inline-block;
