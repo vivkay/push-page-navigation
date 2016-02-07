@@ -46,7 +46,8 @@ header {
   .navigation li:first-child a {
     border-top: 1px solid #ccc; }
   .navigation li a {
-    color: black;
+    color: white;
+    font-weight: lighter;
     display: block;
     text-align: center;
     padding: .5em 1em;
@@ -94,7 +95,9 @@ header {
       height: 100%;
       position: relative;
       transform: translateX(0);
-      transition: all 300ms ease-in-out; }
+      transition: all 300ms ease-in-out;
+      background-color: #222;
+      color: white; }
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
       transform: translateX(-100%); }
     .site-wrapper[data-state="slide-open"] {
