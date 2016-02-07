@@ -107,7 +107,7 @@ header {
     }
 
     &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(-100%);
+      transform: translateX(-50%);
     }
 
     &[data-state="slide-open"]{
