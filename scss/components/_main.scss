@@ -84,9 +84,7 @@ header {
   margin: 1em;
 }
 
-/**
-  *Sliding navigation
-  */
+/*Sliding navigation*/
 
 // Page should move when the nav opens
 // This is the only time we will ever use max-width EVER.
@@ -156,8 +154,8 @@ header {
 
   .navigation {
     position: absolute;
+    display: block;
     right: 0;
-    top: 2em;
       ul {
         li {
           display: inline-block;
