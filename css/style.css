@@ -96,11 +96,12 @@ header {
       transform: translateX(0);
       transition: all 300ms ease-in-out; }
     .site-wrapper[data-state="slide-open"] .sliding-canvas {
-      transform: translateX(-50%); }
+      transform: translateX(-100%); }
     .site-wrapper[data-state="slide-open"] {
       overflow: visible; } }
 .slide-menu {
-  position: relative; }
+  position: relative;
+  background-color: #ffff00; }
 
 .navigation {
   position: absolute;

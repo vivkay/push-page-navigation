@@ -107,7 +107,7 @@ header {
     }
 
     &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
 
     &[data-state="slide-open"]{
@@ -121,6 +121,7 @@ header {
 
 .slide-menu {
   position: relative;
+  background-color: $yellow;
 }
 
 .navigation {
