@@ -40,6 +40,9 @@ header {
 .logo-full {
   height: 1.75em; }
 
+.donate {
+  background-color: #F05546; }
+
 .intro {
   margin-top: 5em; }
 
@@ -169,8 +172,10 @@ header {
       padding: 0;
       width: 100%; }
       .navigation ul li {
-        padding: 0em 1em;
+        padding: 0em 1.5em;
         display: inline-block; }
+        .navigation ul li a {
+          border-bottom: none; }
 
   .logo-full {
     position: absolute;
