@@ -42,19 +42,19 @@ header {
 
 .toggle-btn {
   position: absolute;
-  left: 1em;
+  left: 0;
   top: 0;
   color: #F05546;
   text-decoration: none;
   height: 40px;
-  width: 40px; }
+  width: 100%; }
   .toggle-btn:hover {
     color: #bf2d26; }
   .toggle-btn:before {
-    height: 40px;
-    width: 40px;
     display: inline-block;
-    padding: 13px 11px; }
+    padding: 13px 11px;
+    background-color: #19181A;
+    width: 100%; }
   .toggle-btn span {
     position: absolute !important;
     height: 1px;
@@ -113,7 +113,7 @@ header {
   background-color: #19181A; }
 
 .navigation {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: -100%;
   top: 0;
