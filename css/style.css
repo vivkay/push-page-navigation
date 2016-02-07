@@ -32,7 +32,12 @@ body {
 
 header {
   padding: 0 1em;
-  position: relative; }
+  position: fixed;
+  top: 1em;
+  left: 0; }
+
+.intro {
+  margin-top: 5em; }
 
 .toggle-btn {
   position: absolute;
