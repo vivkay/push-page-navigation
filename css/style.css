@@ -122,12 +122,13 @@ header {
       color: white;
       display: block;
       text-align: center;
-      padding: .5em 0em;
-      border-bottom: 1px solid #8F8A8B;
+      padding: 1em 0em;
+      border-bottom: 1px solid #0D0C0D;
       text-decoration: none; }
     .navigation li a:hover {
-      background-color: #8F8A8B;
-      color: black; }
+      color: #F05546; }
+    .navigation li a:active {
+      color: #F37962; }
 
 .color-shift {
   color: blue; }

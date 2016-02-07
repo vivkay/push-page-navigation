@@ -134,13 +134,15 @@ header {
       color: white;
       display: block;
       text-align: center;
-      padding: .5em 0em;
-      border-bottom: 1px solid $light-grey;
+      padding: 1em 0em;
+      border-bottom: 1px solid $dark-grey;
       text-decoration: none;
     }
     a:hover {
-      background-color: $light-grey;
-      color: black;
+      color: $coral;
+    }
+    a:active {
+      color: $medium-coral;
     }
   } // li
 } // .navigation
