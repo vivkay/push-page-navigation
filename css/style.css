@@ -44,21 +44,21 @@ header {
 .navigation li {
   list-style-type: none; }
   .navigation li:first-child a {
-    border-top: 1px solid #ccc; }
+    border-top: 1px solid #e6e6e6; }
   .navigation li a {
     color: black;
     display: block;
     text-align: center;
     padding: .5em 1em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #e6e6e6;
     text-decoration: none; }
   .navigation li a:hover {
-    background-color: #ccc;
+    background-color: #e6e6e6;
     color: black; }
 
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: #1a1a1a;
   text-decoration: none;
   height: 40px;
   width: 40px; }
@@ -68,7 +68,7 @@ header {
     width: 40px;
     display: inline-block;
     padding: 13px 11px;
-    border: 1px solid #ccc; }
+    border: 1px solid #e6e6e6; }
   .toggle-btn span,
   .close-btn span {
     position: absolute !important;
